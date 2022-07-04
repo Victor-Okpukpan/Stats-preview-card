@@ -1,0 +1,85 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.card {
+    max-width: 70%;
+    max-height: 60%;
+    border-radius: 5px;
+    background-color:  hsl(244, 38%, 16%);
+    display: flex;
+}
+
+.content-container {
+    height: 100%;
+    width:50%;
+    flex: 1;
+    padding: 40px;
+}
+
+.image-container {
+    max-height: 100%;
+    max-width: 50%;
+    flex: 1;
+    background-image: url(./images/image-header-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 5px 5px 0;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(277, 64%, 61%, 0.484);
+}
+
+.header {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 24px;
+}
+
+.header span {
+    color: hsl(277, 64%, 61%);
+}
+
+.description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+.stat-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.stat {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.number {
+    color: hsl(0, 0%, 100%);
+}
+
+.title {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-size: small;
+    margin-top: 5px;
+}
